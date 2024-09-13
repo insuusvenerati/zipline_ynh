@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Zipline est un serveur de téléchargement ShareX/fichier facile à utiliser, doté de fonctionnalités et d'une configuration simple !
 
-**Version incluse :** 3.7.9~ynh1
+**Version incluse :** 3.7.10~ynh1
 
 ## Captures d’écran
 

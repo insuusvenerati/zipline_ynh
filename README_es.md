@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Zipline is a ShareX/file upload server that is easy to use, packed with features, and with an easy setup! 
 
-**Versión actual:** 3.7.9~ynh1
+**Versión actual:** 3.7.10~ynh1
 
 ## Capturas
 
@@ -34,7 +34,7 @@ Zipline is a ShareX/file upload server that is easy to use, packed with features
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/zipline_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/zipline_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
