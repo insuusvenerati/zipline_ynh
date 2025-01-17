@@ -5,7 +5,9 @@
 
 # Zipline для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/zipline.svg)](https://ci-apps.yunohost.org/ci/apps/zipline/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/zipline.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/zipline.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/zipline)](https://ci-apps.yunohost.org/ci/apps/zipline/)
+![Состояние работы](https://apps.yunohost.org/badge/state/zipline)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/zipline)
 
 [![Установите Zipline с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zipline)
 

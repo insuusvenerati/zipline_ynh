@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Zipline untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/zipline.svg)](https://ci-apps.yunohost.org/ci/apps/zipline/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/zipline.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/zipline.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/zipline)](https://ci-apps.yunohost.org/ci/apps/zipline/)
+![Status kerja](https://apps.yunohost.org/badge/state/zipline)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/zipline)
 
 [![Pasang Zipline dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zipline)
 
