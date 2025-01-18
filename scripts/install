@@ -62,7 +62,8 @@ ynh_script_progression --message="Installing $app..." --weight=10
 
 pushd $install_dir
  	ynh_use_nodejs
-	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH yarn install
+	ynh_exec_warn_less corepack enable && corepack prepare yarn@latest --activate
+	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH COREPACK_ENABLE_DOWNLOAD_PROMPT=0 yarn install
 	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH yarn build
 popd
 
