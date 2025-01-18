@@ -28,8 +28,9 @@ ynh_script_progression --message="Reinstalling dependencies..." --weight=7
 ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
 ynh_exec_warn_less corepack enable && corepack prepare yarn@latest --activate
 # run dummy command to ensure yarn is fetched
+pushd $install_dir
 ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH COREPACK_ENABLE_DOWNLOAD_PROMPT=0 yarn bin
-
+popd
 #=================================================
 # RESTORE THE DATA DIRECTORY
 #=================================================
