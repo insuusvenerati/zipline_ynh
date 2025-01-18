@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Zipline for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/zipline.svg)](https://ci-apps.yunohost.org/ci/apps/zipline/) ![Working status](https://ci-apps.yunohost.org/ci/badges/zipline.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/zipline.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/zipline)](https://ci-apps.yunohost.org/ci/apps/zipline/)
+![Working status](https://apps.yunohost.org/badge/state/zipline)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/zipline)
 
 [![Install Zipline with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zipline)
 
@@ -18,7 +20,7 @@ It shall NOT be edited by hand.
 
 Zipline is a ShareX/file upload server that is easy to use, packed with features, and with an easy setup! 
 
-**Shipped version:** 3.7.9~ynh1
+**Shipped version:** 3.7.11~ynh1
 
 ## Screenshots
 

@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Zipline para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/zipline.svg)](https://ci-apps.yunohost.org/ci/apps/zipline/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/zipline.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/zipline.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/zipline)](https://ci-apps.yunohost.org/ci/apps/zipline/)
+![Estado funcional](https://apps.yunohost.org/badge/state/zipline)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/zipline)
 
 [![Instalar Zipline con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zipline)
 
@@ -18,7 +20,7 @@ No se debe editar a mano.
 
 Zipline is a ShareX/file upload server that is easy to use, packed with features, and with an easy setup! 
 
-**Versión actual:** 3.7.9~ynh1
+**Versión actual:** 3.7.11~ynh1
 
 ## Capturas
 
@@ -34,7 +36,7 @@ Zipline is a ShareX/file upload server that is easy to use, packed with features
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/zipline_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/zipline_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Zipline YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/zipline.svg)](https://ci-apps.yunohost.org/ci/apps/zipline/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/zipline.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/zipline.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/zipline)](https://ci-apps.yunohost.org/ci/apps/zipline/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/zipline)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/zipline)
 
 [![Instalatu Zipline YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zipline)
 
@@ -18,7 +20,7 @@ EZ editatu eskuz.
 
 Zipline is a ShareX/file upload server that is easy to use, packed with features, and with an easy setup! 
 
-**Paketatutako bertsioa:** 3.7.9~ynh1
+**Paketatutako bertsioa:** 3.7.11~ynh1
 
 ## Pantaila-argazkiak
 
