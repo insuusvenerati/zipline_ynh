@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Zipline para Yunohost
+# Zipline para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/zipline)](https://ci-apps.yunohost.org/ci/apps/zipline/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/zipline)
@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 Zipline is a ShareX/file upload server that is easy to use, packed with features, and with an easy setup! 
 
-**Versión actual:** 3.7.13~ynh1
+**Versión actual:** 4.0.2~ynh1
 
 ## Capturas
 
