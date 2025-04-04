@@ -42,10 +42,10 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        url = "https://github.com/diced/zipline/archive/refs/tags/v4.0.2.tar.gz"
-        sha256 = "084ad04f36f252f96971206e39c75817437c1abec001a88637339c18e16ec3cb"
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.main]
+    url = "https://github.com/diced/zipline/archive/refs/tags/v4.0.2.tar.gz"
+    sha256 = "084ad04f36f252f96971206e39c75817437c1abec001a88637339c18e16ec3cb"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -64,7 +64,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql"
+    packages = "postgresql, ffmpeg, tzdata"
 
     [resources.database]
     type = "postgresql"
