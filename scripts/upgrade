@@ -17,6 +17,20 @@ ynh_script_progression --message="Stopping a systemd service..." --weight=1
 ynh_systemd_action --service_name=$app --action="stop" --log_path="systemd"
 
 #=================================================
+# ENSURE DOWNWARD COMPATIBILITY
+#=================================================
+ynh_script_progression "Ensuring downward compatibility..."
+
+if ynh_compare_current_package_version --comparison lt --version 4.0.2~ynh1
+then
+    ynh_die --message="Zipline v4 was a complete rewrite, and as such, there is no upgrade path from v3 to v4. \
+    You will need to export your data from v3 and import it into v4.\
+    This process is made easier by the fact that v4 has a built-in importer to import data from v3.\
+    \
+    See https://zipline.diced.sh/docs/migrate for more information."
+fi
+
+#=================================================
 # "REBUILD" THE APP (DEPLOY NEW SOURCES, RERUN NPM BUILD...)
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
