@@ -7,7 +7,7 @@ name = "Zipline"
 description.en = "ShareX/file upload server"
 description.fr = "Serveur de téléchargement ShareX/fichier"
 
-version = "3.7.13~ynh1"
+version = "4.0.2~ynh1"
 
 maintainers = []
 
@@ -42,10 +42,10 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        url = "https://github.com/diced/zipline/archive/refs/tags/v3.7.13.tar.gz"
-        sha256 = "bdec5f3440b078938292c5fd66c64f99fde0f2d96bf957b41cd67595bc28ef35"
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.main]
+    url = "https://github.com/diced/zipline/archive/refs/tags/v4.0.2.tar.gz"
+    sha256 = "084ad04f36f252f96971206e39c75817437c1abec001a88637339c18e16ec3cb"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -64,7 +64,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql"
+    packages = "postgresql, ffmpeg, tzdata"
 
     [resources.database]
     type = "postgresql"
