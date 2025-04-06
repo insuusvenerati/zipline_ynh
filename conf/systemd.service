@@ -9,15 +9,13 @@ Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 Environment=PATH=__YNH_NODE_LOAD_PATH__
 Environment="NODE_ENV=production"
-ExecStart=__NODEJS_PATH__/yarn start
+ExecStart=__NODEJS_PATH__/pnpm start
 Restart=on-failure
 RestartSec=5
 StartLimitInterval=60s
 StartLimitBurst=3
 
 # Sandboxing options to harden security
-# Depending on specificities of your service/app, you may need to tweak these
-# .. but this should be a good baseline
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
 NoNewPrivileges=yes
 PrivateTmp=yes
