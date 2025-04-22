@@ -65,7 +65,7 @@ pushd $install_dir
  	ynh_use_nodejs
 	#ynh_exec_warn_less env $ynh_node_load_PATH corepack enable
 	#ynh_exec_warn_less env $ynh_node_load_PATH corepack prepare pnpm@latest --activate
-	ynh_exec_warn_less ynh_exec_as "$app" env $ynh_node_load_PATH COREPACK_ENABLE_DOWNLOAD_PROMPT=0 npm install
+	ynh_exec_warn_less ynh_exec_as "$app" env $ynh_node_load_PATH COREPACK_ENABLE_DOWNLOAD_PROMPT=0 pnpm install
 	ynh_exec_warn_less ynh_exec_as "$app" env $ynh_node_load_PATH pnpm build
 popd
 
